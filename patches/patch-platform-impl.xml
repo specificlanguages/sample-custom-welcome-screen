@@ -1,0 +1,11 @@
+<diffs>
+    <diff file="META-INF/PlatformExtensions.xml">
+        <remove sel="idea-plugin/extensions/welcomeTabFactory[@id='CustomizeWelcomeTab']" ws="after"/>
+        <remove sel="idea-plugin/extensions/welcomeTabFactory[@id='PluginsWelcomeTab']" ws="after"/>
+        <remove sel="idea-plugin/extensions/welcomeTabFactory[@id='LearnIdeWelcomeTab']" ws="after"/>
+    </diff>
+
+    <diff file="META-INF/VcsActions.xml">
+        <remove sel="idea-plugin/actions/reference[@ref='Vcs.VcsClone' and .//add-to-group[@group-id='WelcomeScreen.QuickStart']]" />
+    </diff>
+</diffs>

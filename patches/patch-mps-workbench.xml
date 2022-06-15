@@ -1,0 +1,5 @@
+<diffs>
+    <diff file="idea/MPSActionManager.xml">
+        <remove msel="idea-plugin/actions/group[@id='WelcomeScreen.QuickStart.MPS']/action" ws="after"/>
+    </diff>
+</diffs>

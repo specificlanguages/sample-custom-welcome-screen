@@ -1,0 +1,6 @@
+.idea/
+.gradle/
+build/
+source_gen/
+classes_gen/
+source_gen.caches/
